@@ -1,3 +1,5 @@
+//Test with soundfile as well, might find out where the error lies.
+
 package com.grumpington.simpleandroidgdf;
 
 import java.io.IOException;
