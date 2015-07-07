@@ -25,6 +25,7 @@ public class Assets {
 
     public static void load(){
         welcome = loadBitmap("welcome.png", false);
+        soundfile = loadSound("test.mp3"); //need to add this file to assets folder.
     }
 
     private static Bitmap loadBitmap(String filename, boolean transparency){
