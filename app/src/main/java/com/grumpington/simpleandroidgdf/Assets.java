@@ -32,7 +32,7 @@ public class Assets {
         } catch (IOException e){
             e.printStackTrace();
         }
-        BitmapFacoty.Options options = new BitmapFactory.Options();
+        BitmapFactory.Options options = new BitmapFactory.Options();
         if (transparency){
             options.inPreferredConfig = Config.ARGB_8888;
         }else{
